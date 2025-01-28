@@ -3,16 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Excercise 2-1</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
 </head>
 <body>
+    <h1>Exercice 1</h1>
+    <p>Reproduisez le tableau suivant en HTML.</p>
+    <table>
+        <tr>
+            <th>Nom</th>
+            <th>Prénom 1</th>
+            <th>Prénom 2</th>
+            <th>Prénom 3</th>
+            <th>Adresse mail 1</th>
+            <th>Adresse mail 2</th>
+            <th>Inscrit ?</th>
+        </tr>
+        <tr>
+            <td>Giraud</td>
+            <td>Pierre</td>
+            <td colspan="2">Victor</td>
+            <td colspan="2">pierre.giraud@edhec.com</td>
+            <td rowspan="2">Oui</td>
+        </tr>
+        <tr>
+            <td>Joly</td>
+            <td colspan="3">Pauline</td>
+            <td>pjl@gmail.com</td>
+            <td>jolyp@hotmail.fr</td>
+        </tr>
+    </table>
     <address>
         Rédigé par <a href ="mailto:anh.sang.tran@umontreal.ca">Anh Sang Tran</a><br>
         Étudiant en Informatique<br>
         IFT1005<br>
         Université de Montréal<br>
         Validated by <a href="https://validator.w3.org/" Target="_blank">Markup Validation Service</a><br>
-        <time datetime="2025-01-25">25 Janvier 2025</time>
+        <time datetime="2025-01-25">27 Janvier 2025</time>
     </address>
 </body>
 </html>
